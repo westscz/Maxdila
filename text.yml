@@ -1,0 +1,253 @@
+event: Wydarzenia
+  event_standard: Minęła kolejna noc... Nastał dzień {} twej nędznej egzystencji
+  lost_drugs: Uciekałeś przed policją, chyba zgubiłeś trochę dragów
+  lost_drugs_2: Policyjne psy goniły cię przez całą dzielnicę. Chyba zniknęło Ci trochę towaru
+  no_cash: Nie masz kasy na przejazd...
+  reputation_lost: Ludzie nakrzeją na towar, który im sprzedajesz
+  reputation_lost_2: Podobno oszukujesz na wasze dosypując różnego gówna
+  reputation_lost_3: Jeden z twoich klientów wykitował po zażyciu narkotyku
+  reputation_lost_4: Twoi klienci robią Ci antyreklamę
+
+  gang: Ludzie z Twojego gangu narzekają - ich morale jest słabe...
+  death: W strzelaninie w której brały udział konkurencyjne gangi zginął członek {}
+
+  robbed: Zostałeś obrobiony przez doliniarzy
+  discount: Diler chce się szybko pozbyć towaru, kończy interes.
+
+  scun_up: Na rynku pojawił się "brain fucker" - odmiana scuna. Zajebisty, ale bardzo drogi
+  scun_down: Pojawił się scun domowej roboty, nasączany eterem
+
+  grass_up: Policja zaczęła serię nalotów, ceny grassu drastycznie wzrosły
+  grass_down: Dostawa z Holandii. Dostawa z nowej plantacji
+
+  extasy_up: Ekstaza staje się coraz bardziej popularna w nocnych lokalach i dyskotekach
+
+  acid_up: Maleje ilość LSD na rynku. Ludzie są w stanie zapłacić ogromne ceny za działke
+  acid_down: Na rynku pojawiło się wyśmienite LSD domowej produkcji
+  acid_down_2: Hoffman 2000 po promocyjnej cenie
+
+  mushroom_up: Grzybny szał! Teraz każdy pragnie je jeść. Ceny gwałtowanie idą w górę
+  mushroom_up_2: Skończył się sezon na grzybki. Ceny podskoczyły gwałtownie
+
+  speed_up: Skonfiskowano 500kg czystego speedu w jednym z podkatowickich mieszkań
+  speed_up_2: Aresztowano głównego dostawce speedu, ceny gwałtownie poszły w górę
+  speed_down: Pojawiła się nowa dostawa speedu po zawrotnie niskich cenach
+  speed_down_2: Tani speed zasypał cały rynek
+
+  hash_scun_up: Czarny Afgan robi furore. Każdy chce go palić
+
+  ?_down: Świeża dostawa tabaczki wprost z Kolumbii
+
+  cocaine_up: Policja wykryła laboratorium, które było głównym dostawcą amfetaminy na rynek
+  cocaine_up_2: Kokaina staje się coraz bardziej popularna w kręgach biznesmenów i mafii
+
+  acid_free: Przy nieprzytomnym kolesiu znalazłeś 2 kwasy
+  acd_free: Spotkałeś kumpla, zostawił Ci kilka acidów
+  grass_free: Znalazłeś torbę z 20 gr marihuany!!!
+  acid_2_free: Kumpel zostawił Ci trochę LSD
+
+
+event_police:
+  header: Zostałeś zaatakowany!!!
+  desc_t1: Wydział d/s narkotyków zorganizował nalot na ulicach miasta.
+  desc_t2: Policja wtargnęła do klubu, w którym sprzedawałeś towar.
+  desc_t3: Policja zorganizowała łapanke na ulicach miasta
+  desc_t4: Komisarz Borewicz i kilku jego przełożonych urządzili nalot.
+  desc_opt: Musisz działać szybko !!! Co robisz ???
+  btn_run: Uciekam
+  btn_wait: Stoję
+  btn_fight: Bronię się
+  wait_warning: Zostałeś aresztowany za posiadanie narkotyków
+  run_warning: Policjanci bez ostrzeżenia strzelają do Ciebie!!!
+  run_succes: Udało Ci się schronić w jakiejś ciemnej uliczce
+
+event_gang:
+  header: Zostałeś zaatakowany !!!
+  desc: Zostałeś napadnięty przez osiedlowy gang
+  run_warning: Dresiarze rzucają w Ciebie kamieniami!!!
+  run_fail: Zostałeś trafiony
+  run_succes: Udało Ci się uciec tym mordercom...
+
+event_diler:
+  header: Confirm
+  desc: Jakiś diler chce sprzedać Ci hurtowo towar.\n Czy idziesz z nim aby sfinalizować transakcje?
+  btn_yes: Tak
+  btn_no: Nie
+  fail: Okazało się, że wpadłeś w zasadzkę policji - to był zakup kontrolowany!\n Odcięto Ci wszystkie drogi ucieczki - lądujesz w areszcie
+
+arrested_gui:
+  header: Zostałeś aresztowany !!!
+  desc: Niestety to już koniec Twojej kariery dilera.
+  desc_2: Najbliższe pare lat spędzisz za kratami.
+  desc_3: Chyba, że spróbujesz przekupić policjantów...
+  price: Kwota łapówki
+  btn_pay: Daj łapówkę
+  warning: Uwaga - niektórzy gliniarze są nieprzekupni !!!
+  fail: Nie udało się przekupić policjantów - czyżby byli nieprzekupni?
+
+gameover_gui:
+  header: Koniec gry
+  desc: G A M E  O V E R
+  desc_2: Bezlitośnie nadszedł koniec Twojej rozgrywki\n Oto jaki jest wynik
+  rank: Twój ranking
+  ranks: [ Śmieć ]
+  money: Twoja kasa
+  respect: Prestż
+  code: Kod wyniku
+  top: Top ten dila
+
+top_gui:
+  header: Top ten dilaz
+  desc: Wyniki najlepszych dilerów
+  desc_2: Aktualne dostępne na stronie www.maxdila.prv.pl
+  money: Kasa
+  nickname: Ksywa
+  respect: Prestiż
+
+cities_text: Wybierz miasto do którego pojedziesz
+cities:
+  1: [Katowice, Centrum - niebezpieczny raj dilera.]
+  2: [Tychy, ... miasto marychy]
+  3: [Oświęcim, Tutaj zawsze coś opylisz]
+  4: [Murcki, Spokojny rejonik]
+  5: [Zabrze, ... tu zarabiasz dobrze]
+  6: [Gliwice, Duży rynek zbytu]
+
+drugs_text: Dostępne na rynku narkotyki
+drugs:
+  grass: Grass
+  hash: Hash
+  acid: Acid
+  extasy: Extasy
+  speed: Speed
+  heroine: Heroina
+  cocaine: Kokaina
+  mushrooms: Grzybki
+
+items:
+  kurtka
+  k_desc: Dzięki oryginalnej kurtce więcej możesz nosić i zwiększasz prestiż
+  k_warn: Nie możesz nosić dwóch kurtek!
+  bag: Torba
+  bag_desc: Dzięki torbie możesz przenieść więcej rzeczy
+  bag_warn: Nie możesz mieć przy sobie dwóch toreb!
+  Aktówka
+  desc: Z taką aktówką wyglądasz jak zawodowiec
+  warn: Dwie aktówki to za dużo!
+  car: Fiat 126p
+  gun: Gnat
+  bullets: Peski do Gnata
+  kalashnikov: Kałach
+  magazine: Magazynek
+  granade: Granat
+  shuriken: Shurikan
+
+
+gui:
+  header: MaxDila v1.0 - dzień {} z {}
+  new_game: Nowa gra
+  graph: Wykres
+  gang: Gang
+  cash: Kasa
+  respect: Prestiż
+  deposit: Depozyt
+  debt: Dług
+  life: Kondycja
+  drop: Wyrzuc
+  buy: Kupuj
+  sell: Sprzedaj
+  shop: Sklep
+  hospital: Szpital
+  bank: Finanse
+  copyright: (C) by All41 2000
+
+
+menu_gui:
+  game: Gra
+  new_game: Nowa gra
+  load_game: Wgraj stan gry
+  top: Najlepsze wyniki
+  exit: Zamknij
+  options: Opcje
+  background: Tło gry
+  sound: Dzwięk {}y
+  music: Muzyka {}a
+  on: włączon
+  off: wyłączon
+  info: Informacje
+  help: Pomoc
+  credits: Creditsy
+  licence: Licencja
+  about: O programie
+  www: Strona WWW
+
+newgame_gui:
+  desc: MaXDila 2000
+  info: Witam w grze MaXDila 2000
+  game_length: Długość gry
+  game_length_type: dni
+  name_desc: Wpisz ksywe pod którą chcesz być znany w środowisku dilerów.
+  name_default: Nazwa_gracza
+  start: Start
+
+
+graph_gui:
+  desc: Wykres zmian cen
+  refresh: Odświeź
+  price: Cena
+  time: Czas
+  product: Wybierz substancje
+  scale: Skala
+  scale_type: Dni
+
+
+gang_gui:
+  desc: Informacje o współpracownikach
+  name: Nazwa gangu
+  default: MaXDila squad
+  quantity: Ilość ludzi
+  add_member: Nabór do gangu
+  add_desc: Koleś przyłączy się do gangu jeżeli dasz mu {} zł zaliczki.\n Czy przyjmujesz go do gangu?
+  add_error: Dziś nikt nie przyłączy się do twojego gangu
+  del_member: Wyrzuć jednego
+  cost: Dniówka
+  morale: [?, słabe, średnie, dobre, ?]
+  party: Impreza
+  error: Wszyscy ludzie opuścili Cię ponieważ nie miałeś pieniędzy na wypłatę dniówki dla nich
+
+buy_gui:
+  header: Kupuj {}
+  desc: Możesz sobie pozwolić na zakup {max} działek {drug}.
+  desc_2: Masz miejsce na {} działek.
+  how_much: Ile chcesz kupić
+  price: Aktualna cena
+  warning: Masz za mało kasy lub miejsca!
+
+sell_gui:
+  header: Sprzedaż {}
+  desc: Sprzedaj {}
+  desc_2: Masz {} działek.
+  how_much: Ile chcesz sprzedać:
+  warning: Towaru nie ma na rynku !!! Nie można go sprzedać !!!
+
+shop_gui:
+  header: Sklep internetowy
+  buy_btn: Kupuj
+  back_btn: Powrót
+  money: Kasa
+
+hospital_gui:
+  header: Szpital miłosierdzia.
+  desc: Kondycja po kuracji
+  heal: Leczenie
+  price: Kasa na leczenie
+  price_max: Koszt całkowitego wyleczenia
+
+bank_gui:
+  header: Tutaj uregulujesz swoje finanse
+  desc: Wybierz operacje do przeprowadzenia
+  deposit: Depozyt
+  drawoff: Pobranie
+  payoff: Spłata
+  loan: Pożyczka
+
