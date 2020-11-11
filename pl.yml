@@ -1,4 +1,5 @@
-event: Wydarzenia
+event:
+  event: Wydarzenia
   event_standard: Minęła kolejna noc... Nastał dzień {} twej nędznej egzystencji
   lost_drugs: Uciekałeś przed policją, chyba zgubiłeś trochę dragów
   lost_drugs_2: Policyjne psy goniły cię przez całą dzielnicę. Chyba zniknęło Ci trochę towaru
@@ -125,15 +126,15 @@ drugs:
   mushrooms: Grzybki
 
 items:
-  kurtka
-  k_desc: Dzięki oryginalnej kurtce więcej możesz nosić i zwiększasz prestiż
-  k_warn: Nie możesz nosić dwóch kurtek!
+  jacket: kurtka
+  jacket_desc: Dzięki oryginalnej kurtce więcej możesz nosić i zwiększasz prestiż
+  jacket_warn: Nie możesz nosić dwóch kurtek!
   bag: Torba
   bag_desc: Dzięki torbie możesz przenieść więcej rzeczy
   bag_warn: Nie możesz mieć przy sobie dwóch toreb!
-  Aktówka
-  desc: Z taką aktówką wyglądasz jak zawodowiec
-  warn: Dwie aktówki to za dużo!
+  briefcase: Aktówka
+  briefcase_desc: Z taką aktówką wyglądasz jak zawodowiec
+  briefcase_warn: Dwie aktówki to za dużo!
   car: Fiat 126p
   gun: Gnat
   bullets: Peski do Gnata
@@ -227,7 +228,7 @@ sell_gui:
   header: Sprzedaż {}
   desc: Sprzedaj {}
   desc_2: Masz {} działek.
-  how_much: Ile chcesz sprzedać:
+  how_much: Ile chcesz sprzedać
   warning: Towaru nie ma na rynku !!! Nie można go sprzedać !!!
 
 shop_gui:

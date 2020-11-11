@@ -1,0 +1,145 @@
+365    		#ILOSC DNI
+FALSE		#FLAGI
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+FALSE
+Nazwa_gracza  	#Nazwa gracza
+2  		#Dzien
+100		#Miejsce dostepne
+100		#Miejsce całe
+136  		#Kasa
+0    		#Depozyt
+109  		#Dług
+0    		#Prestiz
+100		#Ilosc zycia
+0		#Co to kurwa jest :/
+		# Gun
+		# Kalach
+  		# Granat
+  		# Shurikan
+
+
+
+
+
+
+0		# peski do gnata ilosc
+0		# Magazynek ilosc
+0 		# granat ilosc
+0 		# shurikan ilosc
+0
+0
+0
+0
+0
+0
+0
+20 		#Dniówka
+2  		#Morale ( słabe (2), średnie (3) dobre(4)
+1659		#Wynik? Respekt?   (przy starcie ta wartość jest różna 1618, 1763
+MaXDila sqad   	#Nazwa gangu
+Grass     	#Nazwa prochów START 1
+Scun		2
+Hash		3
+Acid		4
+Extasy		5
+Speed		6
+Heroina		7
+Kokaina		8
+Brown Sugar	9
+Grzybki   	#Nazwa prochów END 10
+1  		#ID produktów aktualnie dostępnych
+3
+4
+5
+6
+7
+8  		
+0		#ZERO
+0		#ZERO
+0		#ID End
+3		#Kolejnosc prochow w plecaku
+4
+5
+0
+0
+0
+0
+0
+0		
+0  		#Kolejnosc prochow w plecaku END
+0		#Srednia cena grass START
+0		
+0
+0
+0
+0
+0		#Jeżeli aktualnie nie posiadam, to ostatnia średnia cena
+0
+0
+0		#Srednia cena prochow END
+1		#Jakiś coś kurwa :s
+-3
+2
+5
+1
+2
+1
+1
+-2
+-4		#Jakis cos kurwa koniec
+0		#ilosc narko START gras
+0		# scun
+0		#ilosc hash
+0		#ilosc acid
+0		#ilosc extasy
+0
+0
+0
+0
+0		#ilosc narko END
+0		#ilosc czegos od 1
+0
+0
+0
+0
+0
+0
+0
+0
+0		#ilosc czegos do 10
+1		#Tu sie zaczyna anomalia
+0		#Tego nakrotyku aktualnie nie mam (2)
+2
+3
+4
+5
+6
+7
+0		# Tego tez (9)
+0            	# Tego tez (10) Anomalie związane z narkotykami
+28 grass
+24
+37 scun
+38
+29 hash
+27
+28 acid
+23
+15 extasy
+54
+39 speed
+33
+51 heroina
+57
+133 kokaina
+136
+52 brown sugar
+59
+18 grzybki
+19
+# MIASTO NIE MA ZNACZENIA
